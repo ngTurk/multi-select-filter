@@ -18,7 +18,10 @@ const MultiSelect = ({
   useEffect(() => {
     if (typeof window !== "undefined") {
       const selectedCat = localStorage.getItem("selectedCategories");
-      setSelectedCategories(JSON.parse(selectedCat as string));
+
+      if (selectedCat) {
+        setSelectedCategories(JSON.parse(selectedCat as string));
+      }
     }
   }, []);
 
