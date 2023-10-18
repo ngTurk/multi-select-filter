@@ -18,7 +18,7 @@ This project demonstrates how to create a multi-select checkbox component in Rea
 
 1.  **Clone the repository:**
 
-    `git clone [URL_OF_THE_REPOSITORY]`
+    `git clone https://github.com/ngTurk/multi-select-filter`
 
 2.  **Navigate to the project directory:**
 
